@@ -1,6 +1,6 @@
 'use strict';
 
-const emitter = require('../eventPool');
+const emitter = require('../../eventPool');
 
 function driverReadyToPickPkg2 (payload) {
   emitter.emit('2driverReadyToPickPkg',payload);

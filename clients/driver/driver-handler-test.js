@@ -1,7 +1,7 @@
 'use strict';
 
 
-const emitter  = require('../eventPool');
+const emitter  = require('../../eventPool');
 const { driverReadyToPickPkg2,driverAlertSysPkgPicked3,  driverAlertSysDelivered4, vendorPkgDelivered5 } = require('./handler');
 
 jest.mock('../eventPool', () => {
